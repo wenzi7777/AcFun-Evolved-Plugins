@@ -1,0 +1,45 @@
+[
+    {
+        "name": "AcTheme",
+        "description": "一款用于应用白天/黑夜主题的插件",
+        "latestVersion": "0.0.1",
+        "versions": ["0.0.1"],
+        "createdAt": "2024-02-16",
+        "updatedAt": "2024-02-16",
+        "iconName": "pluginDefaultIcon",
+        "icon": "",
+        "copyrightCaption": "(c)2023-2024 Nick Hsu, Licensed under MPL-2.0",
+        "requestedAPIs": ["injectCss", "removeCss", "currentThemeClass"],
+        "matches": ["*"],
+        "author": "Nick Hsu",
+        "id": "@wenzi7777/ac_theme",
+        "settings": [
+            {
+                "label": "主题",
+                "type": "select",
+                "options": [
+                    {
+                        "label": "跟随AcFun Evolved",
+                        "value": "hosted",
+                        "selected": true
+                    },
+                    {
+                        "label": "自动",
+                        "value": "auto",
+                        "selected": false
+                    },
+                    {
+                        "label": "白天",
+                        "value": "light",
+                        "selected": false
+                    },
+                    {
+                        "label": "黑夜",
+                        "value": "dark",
+                        "selected": false
+                    }
+                ]
+            }
+        ]
+    }
+]

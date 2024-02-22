@@ -1,0 +1,52 @@
+{
+    "self": "(()=>{\"use strict\";const a=\"#header {\\n    background-color: #ff0000;\\n}\",e=\"#header {\\n    background-color: #333333;\\n}\";(async(t,r,c,s,i)=>{let n=(await i(s))[0].options;n.forEach((a=>{a.selected&&(n=a.value)})),\"hosted\"===n?(\"aceLight\"===await c()&&await t(a),\"aceDark\"===await c()&&await t(e)):(\"light\"===n&&await t(a),\"dark\"===n&&await t(e))})(injectCss,removeCss,currentThemeClass,manifest,getSelfPreference)})();",
+    "signature": "AcFunEvolvedPluginPackageSignature|NickHsuSigned|1708617650134|RSA-SHA256|1b2a26dc4969a9c056f0013ad3b0b8d2722c24a626f79c78c6d35945414a019f|*ACE*|WEpUEdklgGm24BI0/sz+K1CK4E3zQNic07yzsUP5I4GqVDG65UDVY489EsC7ptbzNnX2TdzDxTUij988LfHMwIvWTb/6vlyJVqrosVc8fItS2OWe7FnxuC7qLV9KArtwOQu0EuCSgBPzoiEveo4iGC+5jymphse+jAEyN0OgmqJOjVsXDqhTSWHfUvA2c7wFab6M59jsBMe0UKW8z47nQ8a+2oTy/9/0DeFnXv16mzYpvN1t0VJjLqfZ73YU3L1tF2gMIBdcBpSHkYtaDuAvaUz43eHLOTJs93GENfepCkBBXcTk+csLxV80lUXZfzYNnfEGArFDSX8ExgBamjraWzCCCJSSshbRW0VVjruDxz+ebLbgGFCG9g0JTTDjgptV+PK7CPBnnTPSy5gfH1T/2JXrU2fGFInaywFxM8f8v7/FgFE6aWqKGArDFnpnFZVKYbNJXDirYok9glwtpeeDK9inqJo3FEGkS3lq+FA+gMOFRCk4/3jjtqobpB+vVEwYV4g6ADQ35t5kiC5o1OnvCw3Y0QWUy8oHXQ4nMeAvqQfJJmQFEUcXhTL/Lg06NDjFmegEum0fQ2nHAZaB7FPmrvz8Z2MKAN96Vlj+ZYx8g/7z2YiPqDc4IozHcA1lbG9wYKeE9jnts+74xb2G1ROkhLnTWZbZIGbkUyUO1XNOj2M=",
+    "manifest": {
+        "name": "AcTheme",
+        "description": "一款用于应用白天/黑夜主题的插件",
+        "version": "0.0.1",
+        "createdAt": "2024-02-16",
+        "updatedAt": "2024-02-16",
+        "iconName": "pluginDefaultIcon",
+        "icon": "",
+        "copyrightCaption": "(c)2023-2024 Nick Hsu, Licensed under MPL-2.0",
+        "requestedAPIs": [
+            "injectCss",
+            "removeCss",
+            "currentThemeClass"
+        ],
+        "matches": [
+            "*"
+        ],
+        "author": "Nick Hsu",
+        "id": "@wenzi7777/ac_theme",
+        "settings": [
+            {
+                "label": "主题",
+                "type": "select",
+                "options": [
+                    {
+                        "label": "跟随AcFun Evolved",
+                        "value": "hosted",
+                        "selected": true
+                    },
+                    {
+                        "label": "自动",
+                        "value": "auto",
+                        "selected": false
+                    },
+                    {
+                        "label": "白天",
+                        "value": "light",
+                        "selected": false
+                    },
+                    {
+                        "label": "黑夜",
+                        "value": "dark",
+                        "selected": false
+                    }
+                ]
+            }
+        ]
+    }
+}

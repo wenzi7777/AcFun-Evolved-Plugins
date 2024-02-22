@@ -1,2 +1,5 @@
 # AcFun-Evolved-Plugins
-Plugins for userscript AcFun Evolved.
+Plugin Library of userscript AcFun Evolved.
+
+# About LICENSE
+The LICENSE of each plugin is different, please check it individually.
