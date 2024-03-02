@@ -1,0 +1,88 @@
+{
+    "self": "(()=>{\"use strict\";const a=\"#header {\\n    background-color: #ff0000;\\n}\",e=\"#header {\\n    background-color: #333333;\\n}\";(async(t,r,c,s,i)=>{let n=(await i(s))[0].options;n.forEach((a=>{a.selected&&(n=a.value)})),\"hosted\"===n?(\"aceLight\"===await c()&&await t(a),\"aceDark\"===await c()&&await t(e)):(\"light\"===n&&await t(a),\"dark\"===n&&await t(e))})(injectCss,removeCss,currentThemeClass,manifest,getSelfPreference)})();",
+    "signature": "AcFunEvolvedPluginPackageSignature|NickHsuSigned|1709364726164|RSA-SHA256|1b2a26dc4969a9c056f0013ad3b0b8d2722c24a626f79c78c6d35945414a019f|*ACE*|C8sTI/XT2aKUAmitoRh08IgFWq9FGkbKHjH1sJv+/qaMwp8W0yczDBdPQ08GXyzMF5xvp1GNaMcneoFsJGnKytkForWMmcE0tI0UnRR4199lr569bXhKrVTmyvvnlCtB2fzUleQ+ofkSpXuBnyS3d7Ghtax6woM3KQ9JmygjZPbbXQghVNhS3mxm6wZfbcvztOx3lybf2cez8eFOJhys3sOto9KOX+bICY12rBvxV0wbI92tkevEq9BVudfWsBTovfv4mKffsYhAYfOuoYF1ZrOYe3Zheg+N+5GPYASS5J9acyMOXON3wDLm8S4wynT8OfNIa26jehWNEUgpAhbyZRP5dBXdiGtQt+4DQnT79vEhhIBk++DJCwOoZbvczbTLYD/yjeE2FnC7uvvt+UXMEkHY1N5/0B3pp0pX9cKJXDOgNFWqi/cvbgxI0mDCoyOescZ0qHBMdrSj2Jfi4gBYa/c+uLc5mlOuY7ZhLaRZ9hOEWlLvBtuIsv66UzmdfvijrPpwJi1ot2bHx3gXD1AuabYpwvJwVjwplWp0CLpGUQT+K/WEpSBOvwIYsevlboYS1AVMu7EqGV9XqVqO76MzxNgDxj9djbVamDGVCRR+BZGx3fvXibUJ1Ju3nEmqRU3tdjM9SX3OKXlPLokfKKAGc0Eegc/gBUkbacWILXHZO2U=",
+    "manifest": {
+        "name": "AcTheme",
+        "description": "一款用于应用白天/黑夜主题的插件",
+        "version": "0.0.1",
+        "createdAt": "2024-02-16",
+        "updatedAt": "2024-02-16",
+        "iconName": "pluginDefaultIcon",
+        "icon": "",
+        "copyrightCaption": "(c)2023-2024 Nick Hsu, Licensed under MPL-2.0",
+        "requestedAPIs": [
+            "injectCss",
+            "removeCss",
+            "currentThemeClass"
+        ],
+        "matches": [
+            "*"
+        ],
+        "author": "Nick Hsu",
+        "id": "@wenzi7777/ac_theme",
+        "website": "https://acfun-evolved.1205.moe/",
+        "settings": [
+            {
+                "label": "主题",
+                "id": "theme",
+                "type": "select",
+                "options": [
+                    {
+                        "label": "跟随AcFun Evolved",
+                        "value": "hosted",
+                        "selected": true
+                    },
+                    {
+                        "label": "自动",
+                        "value": "auto",
+                        "selected": false
+                    },
+                    {
+                        "label": "白天",
+                        "value": "light",
+                        "selected": false
+                    },
+                    {
+                        "label": "黑夜",
+                        "value": "dark",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "label": "主题Radio",
+                "id": "themer",
+                "type": "radio",
+                "options": [
+                    {
+                        "label": "跟随AcFun EvolvedR",
+                        "value": "hostedR",
+                        "selected": true
+                    },
+                    {
+                        "label": "自动R",
+                        "value": "autoR",
+                        "selected": false
+                    },
+                    {
+                        "label": "白天R",
+                        "value": "lightR",
+                        "selected": false
+                    },
+                    {
+                        "label": "黑夜R",
+                        "value": "darkR",
+                        "selected": false
+                    }
+                ]
+            },
+            {
+                "label": "主题Input",
+                "id": "themei",
+                "type": "input",
+                "inputType": "text",
+                "value": "10"
+            }
+        ]
+    }
+}
