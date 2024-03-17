@@ -2,10 +2,10 @@
     {
         "name": "AcTheme",
         "description": "一款用于应用白天/黑夜主题的插件",
-        "latestVersion": "0.0.2",
-        "versions": ["0.0.1", "0.0.2"],
+        "latestVersion": "0.0.3",
+        "versions": ["0.0.1", "0.0.2", "0.0.3"],
         "createdAt": "2024-02-16",
-        "updatedAt": "2024-02-16",
+        "updatedAt": "2024-03-17",
         "iconName": "pluginDefaultIcon",
         "icon": "",
         "copyrightCaption": "(c)2023-2024 Nick Hsu, Licensed under MPL-2.0",
@@ -41,40 +41,6 @@
                     "selected": false
                 }
             ]
-        },
-        {
-            "label": "主题Radio",
-            "id": "themer",
-            "type": "radio",
-            "options": [
-                {
-                    "label": "跟随AcFun EvolvedR",
-                    "value": "hostedR",
-                    "selected": true
-                },
-                {
-                    "label": "自动R",
-                    "value": "autoR",
-                    "selected": false
-                },
-                {
-                    "label": "白天R",
-                    "value": "lightR",
-                    "selected": false
-                },
-                {
-                    "label": "黑夜R",
-                    "value": "darkR",
-                    "selected": false
-                }
-            ]
-        },
-        {
-            "label": "主题Input",
-            "id": "themei",
-            "type": "input",
-            "inputType": "text",
-            "value": "10"
         }
     ]
     }
