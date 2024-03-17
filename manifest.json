@@ -2,8 +2,8 @@
     {
         "name": "AcTheme",
         "description": "一款用于应用白天/黑夜主题的插件",
-        "latestVersion": "0.0.3",
-        "versions": ["0.0.1", "0.0.2", "0.0.3"],
+        "latestVersion": "0.0.4",
+        "versions": ["0.0.1", "0.0.2", "0.0.3", "0.0.4"],
         "createdAt": "2024-02-16",
         "updatedAt": "2024-03-17",
         "iconName": "pluginDefaultIcon",
